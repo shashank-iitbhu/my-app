@@ -88,7 +88,7 @@ const App: React.FC = () => {
       <Container>
         <Title>Text to Image Generator</Title>
         <Input
-          placeholder="Enter your shashanl text here..."
+          placeholder="Enter your text here..."
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
         />
